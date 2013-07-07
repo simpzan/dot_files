@@ -99,25 +99,25 @@ let g:ycm_key_invoke_completion = '<M-Space>'
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe_semantic/ycm_extra_conf.py'
 
 
-" Vundle settings
-set nocompatible               " be iMproved
-filetype off                   " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"" Vundle settings
+"set nocompatible               " be iMproved
+"filetype off                   " required!
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
 
-Bundle 'gmarik/vundle'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/nerdtree'
-Bundle 'majutsushi/tagbar'
-Bundle 'fugitive.vim'
-Bundle 'simple-pairs'
-Bundle 'a.vim'
-Bundle 'UltiSnips'
-Bundle 'clang-complete'
-Bundle 'EasyMotion'
-Bundle 'minibufexpl.vim'
+"Bundle 'gmarik/vundle'
+"Bundle 'Valloric/YouCompleteMe'
+"Bundle 'scrooloose/nerdtree'
+"Bundle 'majutsushi/tagbar'
+"Bundle 'fugitive.vim'
+"Bundle 'simple-pairs'
+"Bundle 'a.vim'
+"Bundle 'UltiSnips'
+"Bundle 'clang-complete'
+"Bundle 'EasyMotion'
+"Bundle 'minibufexpl.vim'
 
-filetype plugin indent on     " required!
+"filetype plugin indent on     " required!
 
 
 " 80 column limit

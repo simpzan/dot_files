@@ -4,14 +4,33 @@
 [core]
 	excludesfile = /Volumes/Docs/.gitignore_global
 
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+[alias]
+  st = status
+  ci = "commit -m"
+  br = branch
+  co = checkout
+  cia = "commit -am"
+  df = diff
+  dt = difftool
+  mg = merge
+  mt = mergetool
+  ll = "log --oneline"
+
+[merge]
+  ff = false
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 
 [diff]
   tool = vimdiff
 [difftool "vimdiff"]
   cmd = /usr/local/bin/vimdiff \"$LOCAL\" \"$REMOTE\"
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
