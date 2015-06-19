@@ -2,7 +2,7 @@
 	name = simpzan
 	email = simpzan@gmail.com
 [core]
-	excludesfile = /Volumes/Docs/.gitignore_global
+	excludesfile = /Users/simpzan/.gitignore_global
 
 [color]
   status = auto
@@ -11,10 +11,11 @@
   interactive = auto
 [alias]
   st = status
-  ci = "commit -m"
   br = branch
   co = checkout
-  cia = "commit -am"
+  cm = commit
+  cmm = "commit -m"
+  cma = "commit --amend"
   df = diff
   dt = difftool
   mg = merge
