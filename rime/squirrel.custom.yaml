@@ -1,0 +1,7 @@
+# example squirrel.custom.yaml
+patch:
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+  app_options/com.alfredapp.Alfred: {}
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
