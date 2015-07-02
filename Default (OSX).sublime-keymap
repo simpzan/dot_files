@@ -1,0 +1,29 @@
+[
+  {
+    "keys": ["f4"],
+    "command": "switch_file",
+    "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "h", "ipp", "inl", "m", "mm"]}
+  },
+  {
+    "keys": ["ctrl+n"],
+    "command": "auto_complete"
+  },
+  {
+    "keys": ["shift+enter"],
+    "command": "move_to",
+    "args": {"to": "eol", "extend": false}
+  },
+  {
+    "keys": ["ctrl+r"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": "@"}
+  },
+  {
+    "keys":["ctrl+]"],
+    "command":"navigate_to_definition"
+  },
+  {
+    "keys":["ctrl+["],
+    "command":"jump_prev"
+  }
+]
