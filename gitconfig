@@ -1,8 +1,8 @@
 [user]
-	name = simpzan
-	email = simpzan@gmail.com
+  name = simpzan
+  email = simpzan@gmail.com
 [core]
-	excludesfile = /Users/simpzan/.gitignore_global
+  excludesfile = /Users/simpzan/.gitignore_global
 
 [color]
   status = auto
@@ -21,6 +21,7 @@
   mg = merge
   mt = mergetool
   ll = "log --oneline"
+  ls = show --name-status
 
 [merge]
   ff = false
@@ -30,8 +31,6 @@
 
 [diff]
   tool = vimdiff
-[difftool "vimdiff"]
-  cmd = /usr/local/bin/vimdiff \"$LOCAL\" \"$REMOTE\"
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+  path =
